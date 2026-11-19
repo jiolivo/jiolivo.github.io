@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color:#33aef7;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+}
+header {
+    background-color:#33aef7;
+    color:#FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+nav {
+    background-color: #db2020;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ffd800;
+}
+#wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+main{
+    padding: 20px;
+}
+main h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+#krustyhero{
+    height: 400px;
+    background-image: url(Krusty\ krab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
